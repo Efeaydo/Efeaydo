@@ -1,52 +1,75 @@
 <div align="center">
 
-# Hey, I'm Efe (`Efeaydo`)
+# `EFEAYDO`
 
-**Minecraft Server Systems & Performance-Oriented Developer**
+<a href="https://github.com/Efeaydo">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=E63946&center=true&vCenter=true&width=550&lines=Minecraft+Server+Systems+%26+Performance+Architecture;Packet-Level+Networking+%7C+Anti-Cheat+Mechanics;Paper+%E2%80%A2+Purpur+%E2%80%A2+Leaf+%E2%80%A2+Folia" alt="Typing SVG" />
+</a>
 
-[![Discord](https://img.shields.io/badge/Discord-efeaydo-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
-[![Instagram](https://img.shields.io/badge/Instagram-@efeaydo__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/efeaydo_)
-[![GitHub](https://img.shields.io/badge/GitHub-Efeaydo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Efeaydo)
+<br/><br/>
+
+[![Discord](https://img.shields.io/badge/Discord-efeaydo-0d1117?style=for-the-badge&logo=discord&logoColor=E63946&labelColor=0d1117&borderColor=E63946)](https://discord.com)
+[![Instagram](https://img.shields.io/badge/Instagram-@efeaydo__-0d1117?style=for-the-badge&logo=instagram&logoColor=E63946&labelColor=0d1117&borderColor=E63946)](https://instagram.com/efeaydo_)
+[![GitHub](https://img.shields.io/badge/GitHub-Efeaydo-0d1117?style=for-the-badge&logo=github&logoColor=E63946&labelColor=0d1117&borderColor=E63946)](https://github.com/Efeaydo)
 
 </div>
 
----
+<br/>
 
-<table>
-<tr>
-<td width="58%" valign="top">
+---
 
 ### About Me
 
-I'm Efe, an 18-year-old developer who has been around the Minecraft development scene for about 6 years.
+I'm **Efe**, an 18-year-old developer who has been in the Minecraft server development space for about 6 years.
 
-Like most people, I started out by tinkering with pre-made setups and configuring existing plugins. After a while, off-the-shelf solutions stopped being enough for what I wanted to build—and poking around under the hood eventually led me to learn Java and write my own systems from scratch.
+Like many, I initially started by tweaking existing setups and configuring plugins. Over time, premade systems stopped being enough—and diving under the hood pushed me straight into learning Java to engineer custom systems from the ground up.
 
-For a good while now, my main focus has been building lightweight, thread-safe systems for **Paper, Purpur, Leaf, and Folia**. Lately, I spend most of my time working on **packet-level networking** and custom **anti-cheat detection logic**. To better understand how the client side behaves and how memory works at a lower level, I also branched out into **C++** and **Python**, building standalone projects along the way.
+For quite a while now, my primary focus has been developing lightweight, thread-safe backends for **Paper, Purpur, Leaf, and Folia**. Most of my recent work revolves around **packet-level networking** and custom **anti-cheat detection logic**. To understand how clients interact with servers and how memory operates under the hood, I also branched into **C++** and **Python**.
 
-In short, I don't write code just to "make it work and move on." What actually matters to me is whether the server drops TPS or stutters in the background when 50–100+ players are online at once. I like shipping clean, predictable, and rock-solid code.
+My core engineering philosophy: I don't write code just to get something to run. What matters to me is whether the server holds a solid 20 TPS without micro-stutters when 50–100+ concurrent players are actively loading the system. I prioritize clean, predictable, and performance-critical code.
 
-</td>
-<td width="42%" valign="top">
+---
 
-### `developer.yml`
+### Tech Stack & Core Competencies
 
-```yaml
-developer:
-  name: "Efe"
-  handle: "Efeaydo"
-  age: 18
-  experience: "6+ years"
+```
+Languages     ::  Java (JDK 17/21)  •  C++  •  Python
+Server Core   ::  Paper  •  Purpur  •  Leaf  •  Folia
+Networking    ::  PacketEvents  •  ProtocolLib  •  NMS Internal Pipelines
+Build & Tools ::  Maven  •  Git  •  Bytecode Analysis (ASM/Javap)
+```
 
-environment:
-  primary: "Java (JDK 21)"
-  native: ["C++", "Python"]
-  platforms:
-    - Paper / Purpur
-    - Leaf / Folia
+<br/>
 
-performance:
-  networking: "PacketEvents / NMS"
-  focus: "Anti-Cheat & Core Systems"
-  target-tps: 20.0
-  main-thread-lag: false
+![Java](https://img.shields.io/badge/Java_21-E63946?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-111111?style=flat-square&logo=c%2B%2B&logoColor=E63946)
+![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=E63946)
+![PaperMC](https://img.shields.io/badge/PaperMC-E63946?style=flat-square&logo=paper&logoColor=white)
+![Purpur](https://img.shields.io/badge/Purpur-111111?style=flat-square&logoColor=E63946)
+![Leaf](https://img.shields.io/badge/Leaf-111111?style=flat-square&logoColor=E63946)
+![Folia](https://img.shields.io/badge/Folia-E63946?style=flat-square&logoColor=white)
+![PacketEvents](https://img.shields.io/badge/PacketEvents-E63946?style=flat-square&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-111111?style=flat-square&logo=apachemaven&logoColor=E63946)
+![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=E63946)
+
+---
+
+### Areas of Focus
+
+- **Performance-First Architecture**  
+  Zeroing out main-thread overhead, optimizing event listeners, eliminating redundant allocations, and ensuring strict tick stability under heavy load.
+
+- **Packet Inspection & Anti-Cheat Validation**  
+  Processing inbound/outbound packets asynchronously, validating movement physics, ray-tracing player hitboxes, and combat consistency checks.
+
+- **Client & Memory Internals**  
+  Studying client-side tick pipelines, packet flow, and native memory management using C++ and Python.
+
+---
+
+### GitHub Overview
+
+<div align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Efeaydo&show_icons=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=e63946&icon_color=e63946&text_color=ffffff&border_color=e63946" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Efeaydo&layout=compact&langs_count=6&bg_color=0d1117&title_color=e63946&text_color=ffffff&border_color=e63946" />
+</div>

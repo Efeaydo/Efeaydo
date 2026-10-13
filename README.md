@@ -12,6 +12,10 @@
 
 ---
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
 ### About Me
 
 I'm Efe, an 18-year-old developer who has been around the Minecraft development scene for about 6 years.
@@ -22,34 +26,27 @@ For a good while now, my main focus has been building lightweight, thread-safe s
 
 In short, I don't write code just to "make it work and move on." What actually matters to me is whether the server drops TPS or stutters in the background when 50–100+ players are online at once. I like shipping clean, predictable, and rock-solid code.
 
----
+</td>
+<td width="42%" valign="top">
 
-### What I Work With
+### `developer.yml`
 
-#### Core & Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+```yaml
+developer:
+  name: "Efe"
+  handle: "Efeaydo"
+  age: 18
+  experience: "6+ years"
 
-#### Server Platforms & Ecosystem
-![Paper](https://img.shields.io/badge/Paper-181717?style=flat-square&logo=paper&logoColor=white)
-![Purpur](https://img.shields.io/badge/Purpur-6B3FA0?style=flat-square)
-![Leaf](https://img.shields.io/badge/Leaf-2E8B57?style=flat-square)
-![Folia](https://img.shields.io/badge/Folia-008080?style=flat-square)
-![PacketEvents](https://img.shields.io/badge/PacketEvents-D9381E?style=flat-square)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+environment:
+  primary: "Java (JDK 21)"
+  native: ["C++", "Python"]
+  platforms:
+    - Paper / Purpur
+    - Leaf / Folia
 
-#### Areas of Focus
-- **High-Performance Plugin Architecture** — Designing systems that keep main-thread overhead near zero under heavy player counts.
-- **Packet Analysis & Anti-Cheat Mechanics** — Inspecting packet traffic, movement physics, hitbox validation, and combat checks.
-- **Low-Level & Client-Side Internals** — Exploring memory behavior and client mechanics with C++ and Python.
-
----
-
-### GitHub Overview
-
-<div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Efeaydo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Efeaydo&layout=compact&langs_count=6&theme=tokyonight&hide_border=true" />
-</div>
+performance:
+  networking: "PacketEvents / NMS"
+  focus: "Anti-Cheat & Core Systems"
+  target-tps: 20.0
+  main-thread-lag: false
